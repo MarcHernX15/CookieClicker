@@ -1,0 +1,80 @@
+h1 {
+    color: rgb(116, 30, 30);
+    font-size: 40pt;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#Intro {
+    color: rgb(116, 30, 30);
+    font-size: 24pt;
+}
+
+#chocolatemaker {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 850px;
+    width: 800px;
+    color: rgb(116, 30, 30);
+    font-size: 20pt;
+    align-items: center;
+    padding: 1%;
+    justify-content: center;
+    border: 4px solid rgb(116, 30, 30);
+    
+}
+
+#chocolatebars {
+    box-sizing: border-box;
+    display: block;
+    height: 150px;
+    width: 150px;
+    
+    
+}
+body {
+    background-color: rgb(230, 206, 174);
+    border: 5px dotted rgb(116, 30, 30);
+}
+#chocolates {
+    font-size: 30pt;
+    text-decoration: underline;
+}
+#money {
+    font-size: 20pt;
+    text-decoration: underline;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    
+
+
+}
+
+#buy {
+    color: rgb(116, 30, 30);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 24pt;
+}
+.store {
+    color: rgb(116, 30, 30);
+    flex-direction: column;
+    display: flex;
+    height: 842px;
+    width: 850px;
+    border: 4px solid rgb(116, 30, 30);
+    justify-content: start;
+    align-items: flex-start;
+    text-decoration: underline;
+    font-size: 30pt;
+}
